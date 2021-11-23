@@ -1,0 +1,46 @@
+* {
+  background-color: darkslategray;
+}
+
+div {
+  border: 1px solid orange;
+  width: 100px;
+  height: 100px;
+}
+
+section {
+  border: 1px solid violet;
+  padding: 10px;
+  margin: 5px;
+}
+
+div > div {
+  border: 1px solid orangered;
+}
+
+.father-align {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.first-container {
+  width: 300px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.second-container {
+  display: flex;
+  width: 300px;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.third-container {
+  display: flex;
+  width: 500px;
+  padding: 10px;
+  justify-content: space-around;
+}

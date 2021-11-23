@@ -1,0 +1,22 @@
+.border-father {
+  border: 1px solid red;
+}
+
+div {
+  border: 2px solid green;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+}
+
+.block-children {
+  display: block;
+}
+
+.inline-children {
+  display: inline-block;
+}
+
+.flex {
+  display: flex;
+}

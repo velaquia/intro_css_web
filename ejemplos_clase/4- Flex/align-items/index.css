@@ -1,0 +1,21 @@
+* {
+  background-color: darkslategray;
+}
+
+div {
+  border: 1px solid orange;
+  width: 100px;
+  height: 100px;
+}
+
+section {
+  border: 1px solid violet;
+  padding: 10px;
+  margin: 5px;
+}
+
+.father-align {
+  display: flex;
+  align-items: center;
+  height: 300px;
+}
