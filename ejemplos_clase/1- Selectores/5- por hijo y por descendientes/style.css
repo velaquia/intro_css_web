@@ -1,0 +1,9 @@
+/* Descendiente */
+header h1 {
+  font-size: 60px
+}
+
+/* Por hijo */
+header > h1 {
+  font-size: 40px
+}
