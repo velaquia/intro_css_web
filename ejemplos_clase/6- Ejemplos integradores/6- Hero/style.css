@@ -18,6 +18,11 @@ div section {
     100px 100px 80px rgba(0, 0, 0, 0.07);
 }
 
+/*
+- Alinear todos los elementos unos encima de otros (flex-direction:column)
+- Se centraron los elementos en el eje horizontal/principal (justify-content center)
+- Se centraron los elementos en el eje vertical/secondario (align-items center)
+*/
 .father {
   padding-top: 10px;
   display: flex;
