@@ -12,7 +12,7 @@ ejemplos_clase/
 __Ejercicios para que el alumno desarrolle lo visto en clase__\
 ejercicios_practica/
 
-Ejercicios para que el alumno profundice lo visto en clase
+__Ejercicios para que el alumno profundice lo visto en clase__\
 ejercicios_profundizacion/
 
 # Consultas
