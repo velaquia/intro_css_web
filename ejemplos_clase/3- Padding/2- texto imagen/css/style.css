@@ -1,0 +1,14 @@
+* {
+  border: 1px solid red;
+  background-color: lightgrey;
+}
+
+div {
+  padding: 50px;
+  background-color: lightgreen;
+}
+
+img {
+  padding: 50px;
+  background-color: lightblue;
+}
