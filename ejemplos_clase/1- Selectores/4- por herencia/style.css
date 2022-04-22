@@ -1,6 +1,9 @@
+/* Por id */
 #prueba{
   color:red;
 }
+
+/* Por clase */
 .verde{
   color:green;
 }
