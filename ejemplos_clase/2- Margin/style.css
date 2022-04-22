@@ -1,5 +1,4 @@
 .father {
-  display: flex;
   width: 100%;
   background-color: greenyellow;
 }
@@ -11,5 +10,4 @@ div {
   border-radius: 20px;
   background: gray;
   margin: 20px;
-  padding: 20px;
 }

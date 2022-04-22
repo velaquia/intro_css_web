@@ -1,5 +1,4 @@
 .father {
-  display: flex;
   width: 100%;
   background-color: greenyellow;
 }
@@ -12,6 +11,7 @@
   background: gray;
   margin: 50px;
   padding: 40px;
+  /* veremos la propiedad flex en los siguientes ejemplos */
   display: flex;
   justify-content: center;
   align-items: center;
