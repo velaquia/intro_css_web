@@ -1,5 +1,14 @@
 # Ejercicio de profundización
 
+# Ejercicio 1
+Su misión, si decida aceptarla, es realizar Su primer barra de navegación (navbar) estilada con CSS utilizando lo visto en clase. Deberá realizar una barra de navegación utilizando los recursos diponibles en "images" inspirada en esta imagen:
+
+![profundizacion_navbar](profundizacion_navbar.jpg)
+
+Deberá generar su propio archivo HTML y CSS que se acercen a lo visto en el ejemplo.
+
+# Ejercicio 2
+
 Dentro de esta carpeta encontrará dos ejemplos:
 - Card
 - Card personalizada
