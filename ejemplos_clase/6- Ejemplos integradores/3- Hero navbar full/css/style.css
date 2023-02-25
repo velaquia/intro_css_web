@@ -9,30 +9,31 @@
 
 /* ------- Header style ------- */
 
-header {
-  background-color: black;
-  padding-top: 10px;
-  margin-bottom: 10px;
-}
-
-ul {
-  list-style-type: none;
-}
-
-/* fila de elementos del header */
-/* formado por una lista de elementos (ul) */ 
-header > nav > ul {
-  padding: 10px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.tituloNavbar {
-  font-size: 25px;
-  padding: 10px;
-  color: white;
-}
+/* Pintamos el fondo de la navbar de negro
+   y dejamos un relleno superior para separarlo del borde
+   de la página */
+   header {
+    background-color: black;
+    padding-top: 10px;
+  }
+  
+  /* Quitamos las viñetas de la lista */
+  ul {
+    list-style-type: none;
+  }
+  
+  /* Manipulamos el texto que se muestra en la navbar */
+  #tituloNavbar {
+    font-size: 25px;
+    padding: 10px;
+    color: white;
+  }
+  
+  /* fila de elementos del header */
+  /* formado por una lista de elementos (ul) */ 
+  header > nav > ul {
+    padding: 10px;
+  }
 
 /* ------- Main style (contenido principal) ------- */
 main {
@@ -40,51 +41,62 @@ main {
 }
 
 /* ------- Article style ------- */
+
 /*
-- Alinear todos los elementos unos encima de otros (flex-direction:column)
-- Se centraron los elementos en el eje horizontal/principal (justify-content center)
-- Se centraron los elementos en el eje vertical/secondario (align-items center)
+- Establecer que el artículo (la card) tome todo el ancho
+  disponible --> width: 100%
+- Dejar un relleno de 10px
 */
 article {
-  padding-top: 10px;
-  display: flex;
-  gap: 10px;
-  flex-direction: column;
   width: 100%;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
+  padding: 10px;
 }
 
+/* 
+- Centrar todo el texto contenido en titulo
+*/
 .titulo {
   text-align: center;
 }
 
-.titulo > h1 {
+/* Modificar el texto en línea en el título del artículo */
+.titulo > span {
   font-size: 40px;
 }
 
-.titulo > h3 {
+/* Modificar el parrafo en el título del artículo */
+.titulo > p {
   font-size: 25px;
   font-weight: normal;
 }
 
+/* 
+- Centrar todo el texto contenido en descripcion
+- Dejar un margen de 20px respecto a los otros elementos
+*/
 .descripcion {
-  padding: 20px;
+  margin: 20px;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
 }
 
+/*
+- Pintar de color el parrafo en descripcion
+*/
 .descripcion > p {
   color: gray;
 }
 
+/*
+- Pintar de color el link en descripcion
+*/
 .descripcion > a {
   text-decoration: none;
   color: darkcyan;
   font-size: 20px;
+}
+
+article img {
+  width: 500px;
 }
 
 /* ------- Footer style ------- */
@@ -92,9 +104,10 @@ article {
 footer {
   background-color: black;
   padding: 5px;
+  text-align: center;
 }
 
-footer > h2 {
+footer > span {
   color: white;
-  text-align: center;
+  font-size: 20px;
 }

@@ -1,0 +1,48 @@
+/* Selector Universal */
+* {
+  /* En este caso estamos especificando que por defecto */
+  /* todos los textos tengan un tamaño de letra de 16px */
+  font-size: 24px;
+}
+
+/* Selector por etiqueta */
+/* Todos los elementos span seran de color rojo */
+/* span {
+  color: red;
+} */
+
+
+/* Selector por clase */
+/* Todos los elementos que tengan la clase "resaltado" tendran el texto resaltado */
+/* Se utiliza para aplicar estilos a varios elementos específicos */
+/* .resaltado {
+  background-color: yellow;
+  color: black;  
+} */
+
+/* Selector por ID */
+/* El elemento que tenga el id "enItalica" tendrá el tecto en itálica y color de fondo distinto */
+/* #enItalica {
+  background:#809900;   
+  font-style: italic;
+} */
+
+/* Selector por clase */
+/* Todos los elementos que tengan la clase "fondoVioleta" tendran un fondo violeta */
+/* .fondoVioleta {
+  background-color: violet;
+} */
+
+/* Selector por descendientes */
+/* Todos los elementos span que esten dentro de section tendrán
+  el texto en color verde*/ 
+/* section span {
+  color: green;
+} */
+
+/* Selector por hijo */
+/* Todos los elementos span que esten en el primer nivel de descendencia
+  de section tendrán el texto en color azul*/ 
+/* section > span {
+  color: blue;
+} */

@@ -1,0 +1,25 @@
+/* Sintaxis basica de css */
+
+/* Todo lo que aparezca en verde es un comentario */ 
+/* Es decir, no es código que el explorador interprete */
+
+/* pintar de color rojo el título */
+h2 {
+  color: red;
+}
+
+/* pintar de color azul el fondo del título */
+/* h2 {
+  background-color: blue;
+} */
+
+/* Al conjunto se lo conoce como "regla" */
+/* selector {
+    propiedad: valor;
+    propiedad: valor;
+} */
+
+/* h2 {
+  color: red;
+  background-color: blue;
+} */

@@ -9,26 +9,28 @@
 
 /* ------- Header style ------- */
 
+/* Pintamos el fondo de la navbar de negro
+   y dejamos un relleno superior para separarlo del borde
+   de la página */
 header {
   background-color: black;
   padding-top: 10px;
 }
 
+/* Quitamos las viñetas de la lista */
 ul {
   list-style-type: none;
+}
+
+/* Manipulamos el texto que se muestra en la navbar */
+#tituloNavbar {
+  font-size: 25px;
+  padding: 10px;
+  color: white;
 }
 
 /* fila de elementos del header */
 /* formado por una lista de elementos (ul) */ 
 header > nav > ul {
   padding: 10px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.tituloNavbar {
-  font-size: 25px;
-  padding: 10px;
-  color: white;
 }

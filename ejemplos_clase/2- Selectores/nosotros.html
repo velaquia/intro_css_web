@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Hay 3 formas de insertar código css en nuestro código HTML -->
+
+  <!-- 1) Incluir estilos a través de una la etiqueta style. -->
+  <!-- Esta manera no lo trabajaremos -->
+  <style>
+    p {
+      color: indigo;
+      font-size: 20px;      
+    }
+  </style>
+
+  <!-- 2) Incluir estilos través de una etiqueta link. -->
+  <!-- Esta es la manera que trabajaremos -->
+  <!-- <link rel="stylesheet" href="css/style.css"> -->
+
+
+  <title>Selectores</title>
+</head>
+<body>
+  <body class="catsandstars">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="tienda.html">Tienda</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+        </ul>
+      </nav>
+    </header>
+ 
+    
+    <!-- 3) Incluir estilos en ínea directo en la etiqueta HTML. -->
+    <!-- Esta manera la trabajaremos en React, NO la trabajaremos por ahora -->
+    <!-- Ya que por ahora, por una cuestión de prolijidad y mantenimiento, todo el código CSS estará en una carpeta separada -->
+    <!-- Cuando estemos en React, podremos trabajar de esta manera dado que trabajaremos con componentes -->
+    <h1 style="color:green">¡Nosotros!</h1>
+
+    <h2>Hay 3 formas de insertar css a nuestro HTML</h2>
+    <ol>
+      <li>Incluir estilos en el head con etiqueta la style</li>
+      <li class="resaltado">Incluir estilos en el head importanto un archivo CSS</li>
+      <li>Incluir estilos directo en la etiqueta HTML</li>
+    </ol>
+    <span>En este curso trabajaremos los estilos en archivos CSS dentro de la carpeta "css"</span>
+
+    <p>Este texto inicialmente está modificado por el estilo incrustado en el head en la etiqueta style</p>
+
+    <!-- Existen 3 tipos de selectores: etiqueta, id y class. -->
+    <!-- Selector por Etiqueta: -->
+    <span>Modifico el color con un selector de tipo etiqueta</span>
+
+    <!-- Selector por clase: -->
+    <p class="fondoVioleta"> Modifico el fondo con un selector de tipo clase</p>
+
+    <!-- Selector por ID: -->
+    <h3 id="enItalica">Modifico el color y espaciado </h3>
+
+
+    <!-- Un poco más avanzado, selector por descendencia / hijo -->
+    <section>
+      <!-- Este span es un descendiente y un hijo directo de section -->
+      <span> 
+        Texto modificado por child
+      </span>
+      <div>
+        <!-- Este span es un descendiente y pero NO es hijo directo de section -->
+        <span>
+          Texto modificado por descendientes
+        </span>
+      </div>
+    </section>
+  
+</body>
+</html>

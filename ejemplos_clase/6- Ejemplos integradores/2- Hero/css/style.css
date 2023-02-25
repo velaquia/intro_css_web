@@ -8,46 +8,52 @@
 }
 
 /*
-- Alinear todos los elementos unos encima de otros (flex-direction:column)
-- Se centraron los elementos en el eje horizontal/principal (justify-content center)
-- Se centraron los elementos en el eje vertical/secondario (align-items center)
+- Establecer que el artículo (la card) tome todo el ancho
+  disponible --> width: 100%
+- Dejar un relleno de 10px
 */
 article {
   width: 100%;
-  height: 100%;
-  padding-top: 10px;
-  display: flex;
-  gap: 10px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding: 10px;
 }
 
+/* 
+- Centrar todo el texto contenido en titulo
+*/
 .titulo {
   text-align: center;
 }
 
-.titulo > h1 {
+/* Modificar el texto en línea en el título del artículo */
+.titulo > span {
   font-size: 40px;
 }
 
-.titulo > h3 {
+/* Modificar el parrafo en el título del artículo */
+.titulo > p {
   font-size: 25px;
   font-weight: normal;
 }
 
+/* 
+- Centrar todo el texto contenido en descripcion
+- Dejar un margen de 20px respecto a los otros elementos
+*/
 .descripcion {
-  padding: 20px;
+  margin: 20px;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
 }
 
+/*
+- Pintar de color el parrafo en descripcion
+*/
 .descripcion > p {
   color: gray;
 }
 
+/*
+- Pintar de color el link en descripcion
+*/
 .descripcion > a {
   text-decoration: none;
   color: darkcyan;

@@ -1,0 +1,16 @@
+/* El selector de etiquete es el que menos prioridad tiene */
+/* Por qué es un selector muy general, afecta a todo h1 */
+h1 {
+  color:red;
+}
+
+/* El selector del tipo id es el que más prioridad tiene */
+/* Por qué es un selector específico */
+#idTitulo {
+  color:green;
+}
+
+/* El selector del tipo clase tiene prioridad intermedia */
+.titulo {
+  color:blue;
+}
