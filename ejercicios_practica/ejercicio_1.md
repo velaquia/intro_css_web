@@ -19,7 +19,7 @@ Para este ejercicio ya cuenta con  el archivo de CSS "style1.css", el cual deber
 
 Debe intentar replicar la siguiente imagen de referencia:
 
-![ejercicio_1](ejercicio_1.jpg)
+![ejercicio_1](ejercicio_1a.jpg)
 
 ¡Ojo! Debe respectar la estructura HTML que se menciona a continuación para que pueda aplicar luego los estilos.
 - Dentro del body generar un articulo ```<article>``` que contenerá todo el contenido de la card.
