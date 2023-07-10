@@ -1,0 +1,22 @@
+body {
+    width: 100%;
+}
+article {
+    width: fit-content;
+    margin: 0px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #7f7cb1;
+}
+.name {
+    margin: 0px;
+    color: rgb(143, 200, 236);
+    font-size: 30px;
+    font-style: oblique;
+}
+.id {
+    margin: 0px;
+    color: rgb(232, 194, 166);
+    font-size: 20px;
+    font-style: normal;
+}
